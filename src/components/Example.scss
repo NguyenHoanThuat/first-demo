@@ -1,0 +1,143 @@
+#root {
+    margin: auto;
+    width: 100%;
+}
+.breadcrumb-item {
+    width: 25%;
+}
+.breadcrumb-item::before {
+    content: '' !important;
+} 
+.a-header:before {
+    content: none;
+}
+img {
+    width: 300px;
+    height: 100px;
+}
+.flex {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+input {
+    width: 500px;
+    height: 38px;
+}
+.btn-secondary {
+    margin: 0 10px 0 10px;
+}
+.icon-bell, .icon-shopping {
+    color: #6c757d;
+    margin: 0 10px 0 10px;
+    
+}
+img.img-slide {
+    width: 1297px;
+    height: 500px;
+}
+.div-dang-nhap h1, .div-dang-nhap h3{
+    text-align: center;
+}
+.form-dang-nhap {
+    display: flex;
+    flex-direction: column;
+}
+.btn-dang-nhap {
+    width: 200px;
+    margin: auto;
+}
+.div-hoac {
+    display: flex;
+    justify-content: center;
+}
+.rong {
+    margin-top: 7px;
+}
+h2 {
+    margin: 0 20px;
+}
+.dang-nhap-fb-gg {
+    display: flex;
+    flex-direction: column;
+}
+.btn-fb, .btn-ins, .btn-gg {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.bg-login {
+    background: url(https://data.whicdn.com/images/117713065/original.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.carousel-control-next, .carousel-control-prev   {
+    background: linear-gradient(0deg, rgba(34,0,36,0.34637605042016806) 0%, rgba(108, 117, 125,1) 100%);
+}
+.dang-nhap-dang-ky-content {
+    opacity: 0;
+    position: absolute;
+    transition: all 2s;
+    z-index: 15;
+    
+}
+.hover-dang-nhap {
+    position: relative;
+    
+    
+}
+.hover-dang-nhap:hover + .dang-nhap-dang-ky-content {
+    display: block;
+    opacity: 1;
+    z-index: 15;
+    transition: all .3s;
+}
+.dang-nhap-dang-ky-content:hover {
+    opacity: 1;
+    z-index: 15;
+}
+.dang-nhap-hover {
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+}
+.div-quen-mat-khau, .div-da-co-tai-khoan {
+    margin-top: 20px;
+    text-align: center;
+}
+.body-center {
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.body-center-left {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.btn-menu-list {
+    width: 250px;
+    margin-top: 5px;
+}
+.body-center-right {
+    width: 900px;
+    display: flex;
+}
+.card {
+    width: 215px;
+    height: 300px;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.col-3 {
+    padding: 0 !important;
+    
+}
+.row {
+    margin-left: 50px !important;
+}
